@@ -5,6 +5,6 @@ package ru.gpanov;
  */
 public class Speaker {
     public void sayHello(){
-        System.out.println("Say Hello");
+        System.out.println("Hello World");
     }
 }

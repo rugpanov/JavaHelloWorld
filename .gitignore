@@ -43,4 +43,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-/src/main/java/com/educ/EducApplication.java
+
+### custom ###
+target/
