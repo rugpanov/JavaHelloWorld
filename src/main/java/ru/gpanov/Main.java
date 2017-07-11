@@ -6,6 +6,4 @@ public class Main {
 	    Speaker speaker = new Speaker();
 	    speaker.sayHello();
     }
-
-
 }
