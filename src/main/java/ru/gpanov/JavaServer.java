@@ -20,7 +20,7 @@ public class JavaServer {
 
         PropertyHandlerMapping phm = new PropertyHandlerMapping();
           /* Load handler definitions from a property file.
-           * The property file might look like:
+           * The property file might look like:a
            *   Calculator=org.apache.xmlrpc.demo.Calculator
            *   org.apache.xmlrpc.demo.proxy.Adder=org.apache.xmlrpc.demo.proxy.AdderImpl
            */
