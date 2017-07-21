@@ -8,8 +8,8 @@ public class Main {
 	    Speaker speaker = new Speaker();
 	    speaker.sayHello();
 	    String[] str = new String[2];
-	    str[0]="123";//324
-	    str[1]="123";
+	    str[0]="1";
+	    str[1]="2";
 	    System.out.print(Arrays.asList(str));
     }
 }
