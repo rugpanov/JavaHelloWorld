@@ -9,7 +9,7 @@ public class Main {
 	    speaker.sayHello();
 	    String[] str = new String[2];
 	    str[0]="1";
-	    str[1]="2";//one two three
+	    str[1]="2";
 	    System.out.print(Arrays.asList(str));
     }
 }
