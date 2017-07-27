@@ -6,6 +6,6 @@ package ru.gpanov;
 public class Speaker {
     public void sayHello(){
         System.out.println("Hi,  man2");
-    }
+    } 
     Vector vect = new Vector();
 }
