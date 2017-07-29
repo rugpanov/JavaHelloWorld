@@ -8,7 +8,7 @@ public class Main {
 	    Speaker speaker = new Speaker();
 	    speaker.sayHello();
 	    String[] str = new String[2];
-	    str[0]="1";//dss
+	    str[0]="1";//dss1
 	    str[1]="2";
 	    System.out.print(Arrays.asList(str));
     }
