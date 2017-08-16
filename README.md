@@ -1,1 +1,1 @@
-Project for testing the TeamCity extension for VSCode.
+Project for testing the TeamCity extension for VSCode..
