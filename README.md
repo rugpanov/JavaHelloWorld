@@ -12,7 +12,7 @@ Once you have a local TFVC workspace available, you must configure the TFVC supp
 ## Installation
 First, you will need to install [Visual Studio Code](https://code.visualstudio.com/download) `1.12.0` or later.
 
-To install the extension with the latest version of Visual Studio Code (version 1.13.1 is the latest as of this writing), bring up the Visual Studio Code Command Palette (`F1`), type `Install from VSIX` and choose the tc.vsix file in the opened dialoge box. Restart Visual Studio Code. 
+To install the extension with the latest version of Visual Studio Code (version `1.13.1` is the latest as of this writing), bring up the Visual Studio Code Command Palette (`F1`), type `Install from VSIX` and choose the `tc.vsix` file in the opened dialoge box. Restart Visual Studio Code. 
 
 Alternatively you can also install using the VS Code ```--install-extension``` command line switch providing the path to the .vsix: 
 ```
@@ -21,9 +21,7 @@ code --install-extension myextension.vsix
 ## Authentication
 When you are connecting to TeamCity Server, you will only need your TeamCity server credentials (domain name, account name and password).
 
-To sign in to your account, run the `teamcity signin` command or simply click on that indicator. 
-You will be prompted to enter your credentials. When you do, it will be stored securely if possible on your
-computer  and used to connect to Team City server, otherwise only domain name and account name will be stored at the vscode global settings.
+To sign in to your account, run the `teamcity signin` command. You will be prompted to enter your credentials. When you do, it will be stored securely if possible on your computer and used to connect to Team City server, otherwise only domain name and account name will be stored at the vscode global settings.
 
 **Note:** In order for the extension to be activated, a repository *folder* must be opened. The extension
 won't be activated if only a single *file* in the repository is opened.
