@@ -39,16 +39,12 @@ In the Command Palette (`F1`), type `TeamTity` and choose a command.
 
 * `TeamCity: Remote Run. Run With Chosen Build Configurations` – Remote run selected files on TeamCity server with selected  build configurations.
 
-* `TeamCity: Signin` – This command is used for sign in to a TeamCity server. When required credentials are provided they are send to TeamCity server 
+* `TeamCity: Signin` – This command is used for signing in to a TeamCity server. When required credentials are provided they are send to TeamCity server 
 to validate them and get internal user information. If validation is passed, it will be stored securely if possible on user
 computer and used to connect to Team City server. If secure storaging is not possible only domain name and account name will be stored at 
 the vscode global settings.
 
-* `TeamCity: Signout` – Remote run selected files on TeamCity server with selected  build configurations.
-
-## How to disable telemetry reporting
-The Visual Studio Team Services extension collects usage data and sends it to Microsoft to help improve our products
-and services. Read our [privacy statement](http://go.microsoft.com/fwlink/?LinkId=528096&clcid=0x409) to learn more.
+* `TeamCity: Signout` – This command is used for siggning out from a TeamCity server. 
 
 ## Logging
 There may be times when you need to enable file logging to troubleshoot an issue. There are four levels of logging (`error`,
