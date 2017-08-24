@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-	    Speaker speaker = new Speaker();
-	    speaker.sayHello();
+	    HelloWorldSpeaker speaker = new Speaker();
+	    speaker.say();
     }
 }
