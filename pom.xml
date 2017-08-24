@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.gpanov.javahw</groupId>
-    <artifactId>java-hello-world</artifactId>
+    <artifactId>sample-project</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <build>
