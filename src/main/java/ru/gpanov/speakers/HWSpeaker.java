@@ -1,6 +1,6 @@
 package ru.gpanov.speakers;
-
-public class HelloWorldSpeaker implements Speaker {
+import ru.gpanov.speakers.Speaker;
+public class HWSpeaker implements Speaker {
     public void say() {
         System.out.println("Hello World!");
     }
