@@ -6,7 +6,29 @@ echo "##teamcity[testStarted name='test2']"
 echo "##teamcity[testFinished name='test2']"
 
 echo "##teamcity[testStarted name='test3']"
+echo "##teamcity[testFailed name='test3' details='test message and stack trace 3']"
 echo "##teamcity[testFinished name='test3']"
 
 echo "##teamcity[testStarted name='test4']"
 echo "##teamcity[testFinished name='test4']"
+
+echo "##teamcity[testStarted name='test5']"
+echo "##teamcity[testFailed name='test5' details='test message and stack trace 5']"
+echo "##teamcity[testFinished name='test5']"
+
+echo "##teamcity[testStarted name='test6']"
+echo "##teamcity[testFinished name='test6']"
+
+echo "##teamcity[testStarted name='test7']"
+echo "##teamcity[testFailed name='test7' details='test message and stack trace 7']"
+echo "##teamcity[testFinished name='test7']"
+
+echo "##teamcity[testStarted name='test8']"
+echo "##teamcity[testFinished name='test8']"
+
+echo "##teamcity[testStarted name='test9']"
+echo "##teamcity[testFailed name='test9' details='test message and stack trace 9']"
+echo "##teamcity[testFinished name='test9']"
+
+echo "##teamcity[testStarted name='test10']"
+echo "##teamcity[testFinished name='test10']"
