@@ -48,13 +48,13 @@ echo "##teamcity[testStarted name='test12']"
 echo "##teamcity[testFinished name='test12']"
 
 echo "##teamcity[testStarted name='test13']"
+echo "##teamcity[testFailed name='test13' details='test message and stack trace 13']"
 echo "##teamcity[testFinished name='test13']"
 
 echo "##teamcity[testStarted name='test14']"
 echo "##teamcity[testFinished name='test14']"
 
 echo "##teamcity[testStarted name='test15']"
-echo "##teamcity[testFailed name='test15' details='test message and stack trace 15']"
 echo "##teamcity[testFinished name='test15']"
 
 echo "##teamcity[testStarted name='test16']"
@@ -65,3 +65,7 @@ echo "##teamcity[testFinished name='test17']"
 
 echo "##teamcity[testStarted name='test18']"
 echo "##teamcity[testFinished name='test18']"
+
+##teamcity[buildProblem description='<description>' identity='<identity>']
+##teamcity[buildProblem description='<description> 2' identity='<identity 3>']
+##teamcity[buildProblem description='<description> 3' identity='<identity 2>']
