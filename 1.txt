@@ -65,6 +65,7 @@ echo "##teamcity[testStarted name='test17']"
 echo "##teamcity[testFinished name='test17']"
 
 echo "##teamcity[testStarted name='test18']"
+echo "##teamcity[testFailed name='test18' details='test message and stack trace 18']"
 echo "##teamcity[testFinished name='test18']"
 
 ##teamcity[buildProblem description='<description>' identity='<identity>']
