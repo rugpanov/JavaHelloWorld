@@ -27,6 +27,7 @@ echo "##teamcity[testFailed name='test7' details='test message and stack trace 7
 echo "##teamcity[testFinished name='test7']"
 
 echo "##teamcity[testStarted name='test8']"
+echo "##teamcity[testFailed name='test8' details='test message and stack trace 8']"
 echo "##teamcity[testFinished name='test8']"
 
 echo "##teamcity[testStarted name='test9']"
