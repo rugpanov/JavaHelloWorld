@@ -31,6 +31,7 @@ echo "##teamcity[testFailed name='test8' details='test message and stack trace 8
 echo "##teamcity[testFinished name='test8']"
 
 echo "##teamcity[testStarted name='test9']"
+echo "##teamcity[testFailed name='test9' details='test message and stack trace 9']"
 echo "##teamcity[testFinished name='test9']"
 
 echo "##teamcity[testStarted name='test10']"
@@ -67,9 +68,3 @@ echo "##teamcity[testStarted name='test18']"
 echo "##teamcity[testFinished name='test18']"
 
 ##teamcity[buildProblem description='<description>' identity='<identity>']
-
-##teamcity[compilationStarted compiler='abd']
-##teamcity[message text='compiler output']
-##teamcity[message text='compiler output']
-##teamcity[message text='compiler error' status='ERROR']
-##teamcity[compilationFinished compiler='abd']
