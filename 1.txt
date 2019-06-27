@@ -1,69 +1,14 @@
 echo "##teamcity[testStarted name='test1']"
-echo "##teamcity[testFailed name='test1' details='test message and stack trace 1']"
+##echo "##teamcity[testFailed name='test1' details='test message and stack trace 1']"
 echo "##teamcity[testFinished name='test1']"
 
 echo "##teamcity[testStarted name='test2']"
-echo "##teamcity[testFailed name='test2' details='test message and stack trace 2 ']"
 echo "##teamcity[testFinished name='test2']"
 
 echo "##teamcity[testStarted name='test3']"
-echo "##teamcity[testFailed name='test3' details='test message and stack trace 3']"
 echo "##teamcity[testFinished name='test3']"
 
 echo "##teamcity[testStarted name='test4']"
-echo "##teamcity[testFailed name='test4' details='test message and stack trace 4']"
 echo "##teamcity[testFinished name='test4']"
-
-echo "##teamcity[testStarted name='test5']"
-echo "##teamcity[testFailed name='test5' details='test message and stack trace 4']"
-echo "##teamcity[testFinished name='test5']"
-
-echo "##teamcity[testStarted name='test6']"
-echo "##teamcity[testFailed name='test6' details='test message and stack trace 4']"
-echo "##teamcity[testFinished name='test6']"
-
-echo "##teamcity[testStarted name='test7']"
-echo "##teamcity[testFailed name='test7' details='test message and stack trace 7']"
-echo "##teamcity[testFinished name='test7']"
-
-echo "##teamcity[testStarted name='test8']"
-echo "##teamcity[testFailed name='test8' details='test message and stack trace 8']"
-echo "##teamcity[testFinished name='test8']"
-
-echo "##teamcity[testStarted name='test9']"
-echo "##teamcity[testFinished name='test9']"
-
-echo "##teamcity[testStarted name='test10']"
-echo "##teamcity[testFinished name='test10']"
-
-echo "##teamcity[testStarted name='test9']"
-echo "##teamcity[testFinished name='test9']"
-
-echo "##teamcity[testStarted name='test10']"
-echo "##teamcity[testFinished name='test10']"
-
-echo "##teamcity[testStarted name='test11']"
-echo "##teamcity[testFinished name='test11']"
-
-echo "##teamcity[testStarted name='test12']"
-echo "##teamcity[testFinished name='test12']"
-
-echo "##teamcity[testStarted name='test13']"
-echo "##teamcity[testFinished name='test13']"
-
-echo "##teamcity[testStarted name='test14']"
-echo "##teamcity[testFinished name='test14']"
-
-echo "##teamcity[testStarted name='test15']"
-echo "##teamcity[testFinished name='test15']"
-
-echo "##teamcity[testStarted name='test16']"
-echo "##teamcity[testFinished name='test16']"
-
-echo "##teamcity[testStarted name='test17']"
-echo "##teamcity[testFinished name='test17']"
-
-echo "##teamcity[testStarted name='test18']"
-echo "##teamcity[testFinished name='test18']"
 
 ##teamcity[buildProblem description='<description>' identity='<identity>']
