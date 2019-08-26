@@ -1,5 +1,4 @@
 echo "##teamcity[testStarted name='test1']"
-echo "##teamcity[testFailed name='test1' details='test message and stack trace 1']"
 echo "##teamcity[testFinished name='test1']"
 
 echo "##teamcity[testStarted name='test2']"
@@ -14,6 +13,6 @@ echo "##teamcity[testFinished name='test4']"
 echo "##teamcity[testStarted name='test5']"
 echo "##teamcity[testFinished name='test5']"
 
-echo "##teamcity[testStarted name='test6']"
-echo "##teamcity[testFailed name='test6' details='test message and stack trace 6']"
-echo "##teamcity[testFinished name='test6']"
+echo "##teamcity[testStarted name='test11']"
+echo "##teamcity[testFailed name='test11' details='test message and stack trace 11']"
+echo "##teamcity[testFinished name='test11']"
