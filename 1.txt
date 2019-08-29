@@ -19,3 +19,4 @@ echo "##teamcity[testFinished name='test21']"
 
 ##teamcity[buildProblem description='any description in branch ' identity='any identity']
 ##teamcity[buildProblem description='any description 2 in branch' identity='any identity 2']
+##teamcity[buildProblem description='any description 3 in branch' identity='any identity 3']
