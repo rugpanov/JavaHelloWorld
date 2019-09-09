@@ -14,5 +14,3 @@ echo "##teamcity[testStarted name='test5']"
 echo "##teamcity[testFinished name='test5']"
 ..
 ##teamcity[buildProblem description='any description' identity='any identity']
-##teamcity[buildProblem description='any description 2' identity='any identity 2']
-##teamcity[buildProblem description='any description 3' identity='any identity 3']
