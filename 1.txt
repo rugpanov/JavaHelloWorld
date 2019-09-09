@@ -16,3 +16,9 @@ echo "##teamcity[testStarted name='test5']"
 echo "##teamcity[testFinished name='test5']"
 
 ##teamcity[buildProblem description='any description' identity='any identity']
+
+
+##teamcity[compilationStarted compiler='banda']
+##teamcity[message text='compiler error' status='ERROR']
+##teamcity[message text='compiler error 2' status='ERROR']
+##teamcity[compilationFinished compiler='banda']
